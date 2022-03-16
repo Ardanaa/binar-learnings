@@ -1,0 +1,41 @@
+#mobile {
+    background-color: red;
+}
+
+#tablet {
+    display: none;
+}
+
+#desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #mobile {
+        display: none;
+    }
+    
+    #tablet {
+        display: block;
+        background-color: blue;
+    }
+    
+    #desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    #mobile {
+        display: none;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #desktop {
+        display: block;
+        background-color: green;
+    }
+}
