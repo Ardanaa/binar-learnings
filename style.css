@@ -15,12 +15,17 @@ body {
 
 .btn-primary {
   background-color: #3a3845;
-  border: none;
+  border-color: #3a3845;
 }
 
 .btn-primary:hover {
   background-color: #826f66;
 }
+
+.box-shadow {
+  box-shadow: 5px 8px 8px #3a3845;
+}
+
 /* Products */
 #product-item p {
   text-align: center !important;
@@ -40,6 +45,23 @@ body {
 }
 /* Products */
 
+/* shop */
+#shop-item .btn-primary {
+  background-color: transparent !important;
+  color: #3a3845 !important;
+  border-color: #3a3845 !important;
+}
+
+#shop-item button:hover {
+  background-color: #3a3845 !important;
+  color: white !important;
+}
+
+#shop-item .card {
+  background-color: transparent;
+}
+/* shop */
+
 /* Desktop Version*/
 @media (min-width: 576px) {
   /* Hero */
@@ -55,4 +77,37 @@ body {
     padding-top: 20px;
   }
   /* Hero */
+
+  /* shop */
+  #shop-item p {
+    text-align: center !important;
+  }
+  #shop-item .card {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+  }
+
+  #shop-item .card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+
+  #shop-item .card-body a {
+    text-decoration: none;
+  }
+  /* shop */
+
+  /* offer */
+  #offer h1,
+  p {
+    text-align: left !important;
+  }
+  #offer button {
+    float: left !important;
+  }
+  #offer img {
+    width: 100% !important;
+    padding-top: 20px;
+  }
+  /* offer */
 }
