@@ -1,0 +1,58 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #f7ccac;
+}
+
+.font-pixel {
+  font-family: "VT323", monospace;
+}
+
+.font-primary {
+  font-color: #c69b7b;
+}
+
+.btn-primary {
+  background-color: #3a3845;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #826f66;
+}
+/* Products */
+#product-item p {
+  text-align: center !important;
+}
+#product-item .card {
+  background-color: transparent;
+  border: none;
+  margin: auto;
+}
+
+#product-item .card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+#product-item .card-body a {
+  text-decoration: none;
+}
+/* Products */
+
+/* Desktop Version*/
+@media (min-width: 576px) {
+  /* Hero */
+  #hero h1,
+  p {
+    text-align: left !important;
+  }
+  #hero button {
+    float: left !important;
+  }
+  #hero img {
+    width: 65% !important;
+    padding-top: 20px;
+  }
+  /* Hero */
+}
