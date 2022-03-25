@@ -22,8 +22,20 @@ body {
   background-color: #826f66;
 }
 
-.box-shadow {
-  box-shadow: 5px 8px 8px #3a3845;
+.btn-danger {
+  background-color: transparent;
+  border-color: blue;
+  color: blue;
+}
+
+.btn-danger:hover {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+
+.bg-primary {
+  background-color: #3a3845 !important;
 }
 
 /* Products */
@@ -64,6 +76,9 @@ body {
 
 /* Desktop Version*/
 @media (min-width: 576px) {
+  .box-shadow {
+    box-shadow: 5px 8px 8px #3a3845;
+  }
   /* Hero */
   #hero h1,
   p {
@@ -110,4 +125,16 @@ body {
     padding-top: 20px;
   }
   /* offer */
+
+  /* rating */
+  #rating .text-left-desktop {
+    text-align: left !important;
+  }
+  /* rating */
+
+  /* form */
+  #form h1,
+  p {
+    text-align: left !important;
+  }
 }
